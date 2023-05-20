@@ -70,6 +70,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_bootstrap_widgets:
+    dependency: "direct main"
+    description:
+      name: flutter_bootstrap_widgets
+      sha256: e9047c520e396e80501818220ec101df6426cba7ef7c18f3fe2a4dd2e7900559
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -194,4 +202,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=3.0.0-0 <4.0.0"
-  flutter: ">=0.1.2"
+  flutter: ">=1.20.0"

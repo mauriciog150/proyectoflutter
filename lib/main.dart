@@ -4,7 +4,7 @@ import 'package:bootstrap_icons/bootstrap_icons.dart';
 
 void main() => runApp(const MyApp());
 
-/*class MyApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
@@ -20,12 +20,14 @@ void main() => runApp(const MyApp());
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: const <Widget>[
-              Icon(BootstrapIcons.alarm),
-              Text('Alarm'),
+              Icon(BootstrapIcons.heart),
+              Icon(BootstrapIcons.toggles),
+              Icon(BootstrapIcons.shop),
+              Text('Mauricio_Garcia'),
             ],
           ),
         ),
       ),
     );
   }
-}*/
+}
